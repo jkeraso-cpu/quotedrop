@@ -1,10 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./App";
-import "./styles.css";
+import { Toaster } from "sonner";
+import QuoteDropPage from "./pages/_index";
+import { ThemeModeProvider } from "./helpers/themeMode";
+import "./base.css";
+import "./global.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <ThemeModeProvider>
+      <QuoteDropPage />
+      <Toaster position="bottom-right" richColors closeButton />
+    </ThemeModeProvider>
   </React.StrictMode>,
 );
