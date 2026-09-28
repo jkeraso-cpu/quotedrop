@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Newsreader:opsz,wght@6..72,400;500;600;700&display=swap');
+
+:root {
+  /* Overlay layers */
+  --z-overlay: 400;
+
+  --z-spotlight: 1000; /* Tutorial spotlights/guided help */
+
+  /* System layers */
+  --z-critical: 2000; /* Critical system notifications */
+
+  /* spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+}
+
+:root {
+  --background: hsl(38 45% 96%);
+  --foreground: hsl(22 18% 16%);
+  --surface: hsl(36 39% 93%);
+  --surface-foreground: hsl(22 18% 16%);
+  --sidebar: hsl(36 34% 91%);
+  --sidebar-foreground: hsl(22 18% 20%);
+  --card: hsl(42 48% 98%);
+  --card-foreground: hsl(22 18% 16%);
+  --popup: hsl(42 48% 98%);
+  --popup-foreground: hsl(22 18% 16%);
+  --primary: hsl(13 55% 48%);
+  --primary-foreground: hsl(38 55% 98%);
+  --secondary: hsl(33 28% 88%);
+  --secondary-foreground: hsl(22 18% 22%);
+  --accent: hsl(10 38% 90%);
+  --accent-foreground: hsl(12 46% 34%);
+  --muted: hsl(34 24% 89%);
+  --muted-foreground: hsl(24 10% 45%);
+  --success: hsl(143 33% 38%);
+  --success-foreground: hsl(42 50% 98%);
+  --error: hsl(1 60% 50%);
+  --error-foreground: hsl(0 0% 100%);
+  --warning: hsl(37 67% 46%);
+  --warning-foreground: hsl(34 72% 14%);
+  --info: hsl(205 49% 48%);
+  --info-foreground: hsl(0 0% 100%);
+  --info-hover: hsl(205 49% 43%);
+  --info-active: hsl(205 49% 38%);
+  --border: hsl(30 22% 82%);
+  --font-family-base: 'DM Sans', sans-serif;
+  --font-family-display: 'Newsreader', serif;
+  --font-family-monospace: 'IBM Plex Mono', monospace;
+  --font-family-cursive: cursive;
+  --shadow: 0 1px 2px hsl(20 25% 20% / .04), 0 10px 32px hsl(20 25% 20% / .05);
+  --shadow-md: 0 18px 45px hsl(20 25% 20% / .09);
+  --shadow-lg: 0 30px 80px hsl(20 25% 20% / .14);
+  --shadow-focus: 0 0 0 3px hsl(13 55% 48% / .20);
+  --radius-sm: .45rem;
+  --radius: .75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.35rem;
+  --radius-full: 999px;
+  --animation-duration-fast: 140ms;
+  --animation-duration-normal: 220ms;
+  --animation-duration-slow: 320ms;
+  --chart-color-1: hsl(13 55% 48%);
+  --chart-color-2: hsl(342 32% 57%);
+  --chart-color-3: hsl(39 52% 54%);
+  --chart-color-4: hsl(174 27% 42%);
+  --chart-color-5: hsl(221 28% 45%);
+}
+
+.dark {
+  --background: hsl(22 17% 10%);
+  --foreground: hsl(39 38% 91%);
+  --surface: hsl(22 16% 13%);
+  --surface-foreground: hsl(39 38% 91%);
+  --sidebar: hsl(22 17% 12%);
+  --sidebar-foreground: hsl(39 32% 88%);
+  --card: hsl(22 15% 16%);
+  --card-foreground: hsl(39 38% 92%);
+  --popup: hsl(22 15% 17%);
+  --popup-foreground: hsl(39 38% 92%);
+  --primary: hsl(12 62% 64%);
+  --primary-foreground: hsl(18 30% 12%);
+  --secondary: hsl(24 14% 22%);
+  --secondary-foreground: hsl(39 30% 89%);
+  --accent: hsl(12 22% 24%);
+  --accent-foreground: hsl(11 58% 75%);
+  --muted: hsl(23 13% 21%);
+  --muted-foreground: hsl(30 12% 66%);
+  --success: hsl(143 37% 54%);
+  --success-foreground: hsl(143 42% 10%);
+  --error: hsl(2 69% 66%);
+  --error-foreground: hsl(3 45% 12%);
+  --warning: hsl(39 73% 61%);
+  --warning-foreground: hsl(34 65% 11%);
+  --info: hsl(205 58% 65%);
+  --info-foreground: hsl(205 55% 10%);
+  --info-hover: hsl(205 58% 70%);
+  --info-active: hsl(205 58% 75%);
+  --border: hsl(23 13% 27%);
+  --shadow: 0 1px 2px hsl(0 0% 0% / .22), 0 12px 34px hsl(0 0% 0% / .18);
+  --shadow-md: 0 20px 48px hsl(0 0% 0% / .28);
+  --shadow-lg: 0 34px 82px hsl(0 0% 0% / .42);
+  --shadow-focus: 0 0 0 3px hsl(12 62% 64% / .23);
+}
