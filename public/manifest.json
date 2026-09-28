@@ -1,0 +1,9 @@
+{
+  "name": "QuoteDrop",
+  "short_name": "QuoteDrop",
+  "description": "Discover, save, share, and create beautiful quote cards with QuoteDrop.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f0e6",
+  "theme_color": "#b65b43"
+}
